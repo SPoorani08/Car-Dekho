@@ -60,7 +60,7 @@ st.markdown('<div class="title">Find the Best Price for Your Car</div>', unsafe_
 st.markdown("<div style='height: 20px;'></div>", unsafe_allow_html=True)
 
 # Dropdown for City Selection
-city = st.selectbox("City", ["Bangalore", "Chennai", "Delhi", "Hyderabad", "Jaipur", "Kolkata"], key="city")
+city = st.selectbox("City", ["Bangalore", "Chennai", "Delhi", "hyderabad", "jaipur", "kolkata"], key="city")
 
 # Buttons for Fuel Type
 fuel_type = st.radio(
